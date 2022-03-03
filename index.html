@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftSection">
+            <img class="logo" src="logo.png" alt="Logo">
+            <p class="logoText">ODIN</p>
+            <div class="bg"></div>
+            <img class="bgImg" src="img.png" alt="image">
+        </div>
+        <div class="rightSection">
+            <div class="topSection">
+                <div class="topText">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up <em>now</em> to get started.</p>
+                    <br>
+                    <p>You <em>know </em> you want to.</p>
+                </div>
+            </div>
+            <div class="midSection">
+                <form action="#">
+                    <p id="formTitle">Let's do this!</p>
+                    <div class="wrapper">
+                        <div class="leftSide">
+                            <div>
+                                <label for="firstName">First Name</label>
+                                <input type="text" name="firstName" id="firstName" placeholder="Jessa" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="youremail@xyz.com" required>
+                            </div>
+                            <div>
+                                <label for="pass">Password</label>
+                                <input type="password" name="pass" id="pass" required>
+                            </div>
+                        </div>   
+                        <div class="rightSide">
+                            <div>
+                                <label for="lastName">Last Name</label>
+                                <input type="text" name="lastName" id="lastName" placeholder="Moreno" required>
+                            </div>
+                                
+                            <div>
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone" placeholder="+639264756732" required>
+                            </div>
+                                
+                            <div>
+                                <label for="confirmPass">Confirm Password</label>
+                                <input type="password" name="confirmPass" id="confirmPass" required>
+                            </div>
+                        </div> 
+                    </div>
+                    <button>Create Account</button> 
+                    <p id="last">Already have an account? <a href="#">Log in<a></p> 
+                </form>
+            </div>
+            <div class="botSection">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
